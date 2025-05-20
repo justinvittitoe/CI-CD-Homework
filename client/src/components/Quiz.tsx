@@ -2,6 +2,7 @@ import { useState, } from 'react';
 import type { Question } from '../models/Question.js';
 import { getQuestions } from '../services/questionApi.js';
 
+//new comment 2
 
 const Quiz = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
