@@ -27,5 +27,5 @@ jobs:
         run: npm run build
 
       - name: Run vitest tests
-        run: npm run test
+        run: npm run test-component
 
